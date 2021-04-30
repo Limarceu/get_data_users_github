@@ -23,7 +23,8 @@ if __name__ == '__main__':
     for n in sz_info_subs:
         tabela = {'Subs':[info[n]['language'], info[n]['name']]}
         print(tabela)
-
+    
+    #Show user avatar
     Image.open(urlopen(get_usuario(usuario)['avatar_url'])).show()
 
 
